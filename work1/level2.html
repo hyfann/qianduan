@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dog</title>
+</head>
+<style>
+    .grid {
+        display: grid;
+        grid-template-rows: 80px 80px 80px 80px 80px 80px 80px;
+        grid-template-columns: 100px 100px 100px 100px 100px 100px;
+    }
+
+    .pic {
+        width: 100%;
+        height: 100%;
+    }
+
+    .item7 {
+        grid-row-start: 2;
+        grid-row-end: 6;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    .item8 {
+        grid-row-start: 2;
+        grid-row-end: 6;
+        grid-column-start: 3;
+        grid-column-end: 7;
+    }
+
+    .item9 {
+        grid-row-start: 6;
+        grid-row-end: 8;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    .item10 {
+        grid-row-start: 6;
+        grid-row-end: 8;
+        grid-column-start: 3;
+        grid-column-end: 5;
+    }
+
+    .item11 {
+        grid-row-start: 6;
+        grid-row-end: 8;
+        grid-column-start: 5;
+        grid-column-end: 7;
+    }
+</style>
+
+<body>
+    <div class="grid">
+        <div><img class="pic" src="images/dog.png" /></div>
+        <div><img class="pic" src="images/dog.png" /></div>
+        <div><img class="pic" src="images/dog.png" /></div>
+        <div><img class="pic" src="images/dog.png" /></div>
+        <div><img class="pic" src="images/dog.png" /></div>
+        <div><img class="pic" src="images/dog.png" /></div>
+        <div class="item7"><img class="pic" src="images/dog.png" /></div>
+        <div class="item8"><img class="pic" src="images/dog.png" /></div>
+        <div class="item9"><img class="pic" src="images/dog.png" /></div>
+        <div class="item10"><img class="pic" src="images/dog.png" /></div>
+        <div class="item11"><img class="pic" src="images/dog.png" /></div>
+    </div>
+
+
+</body>
+
+</html>
