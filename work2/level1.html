@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        // object()方法
+        let obj = new Object();
+        obj.name = 'ikun';
+        obj.age = 2.5;
+        console.log(obj);
+        // 对象字面量
+        let kun = {
+            name: '坤坤',
+            age: 2.5
+        }
+        console.log(kun);
+        // 构造函数创建对象
+        function Person() {
+            this.name = 'ikun';
+            this.age = 2.5;
+        }
+        let p = new Person();
+        console.log(p);
+    </script>
+</body>
+
+</html>
